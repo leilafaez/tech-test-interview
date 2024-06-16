@@ -8,4 +8,7 @@
 4. build the  components
 5. pass props to components
 
-# Commit and push Changes
+# git setup
+1. Commit and push Changes
+
+# test

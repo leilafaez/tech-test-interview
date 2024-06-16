@@ -4,10 +4,9 @@ import Characters from "./component/Characters";
 
 
 function App() {
+
   const [characters, setCharacters] = useState([]);
   
-
-
   useEffect(() => {
     fetch("https://swapi.dev/api/people")
       .then((res) => res.json())
@@ -20,7 +19,6 @@ function App() {
  
   return (
     <div className="App">
-     
       <Characters characters={characters} />
     </div>
   );
